@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learnly</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #1a1a1a; /* dark background */
+            color: white;
+        }
+
+        /* Hero Section */
+        .hero {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 80px;
+            font-weight: bold;
+            color: #FFD700; /* Yellow color */
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 24px;
+            color: white;
+            margin-top: 20px;
+        }
+
+        /* Features Section */
+        .features {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 60px 20px;
+            gap: 40px;
+            background-color: #111; /* slightly darker section */
+        }
+
+        .feature-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 180px;
+            padding: 20px;
+            background-color: #222;
+            border-radius: 15px;
+            transition: transform 0.2s;
+        }
+
+        .feature-card:hover {
+            transform: scale(1.05);
+        }
+
+        .feature-card img {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 15px;
+        }
+
+        .feature-card p {
+            font-size: 18px;
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>LEARNLY</h1>
+        <p>Life got better</p>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="feature-card">
+            <img src="https://img.icons8.com/ios-filled/100/ffffff/document.png" alt="Notes Summarizer Icon">
+            <p>Notes Summarizer</p>
+        </div>
+        <div class="feature-card">
+            <img src="https://img.icons8.com/ios-filled/100/ffffff/edit.png" alt="Notes Maker Icon">
+            <p>Notes Maker</p>
+        </div>
+        <div class="feature-card">
+            <img src="https://img.icons8.com/ios-filled/100/ffffff/quiz.png" alt="Quiz Generator Icon">
+            <p>Quiz Generator</p>
+        </div>
+        <div class="feature-card">
+            <img src="https://img.icons8.com/ios-filled/100/ffffff/flash-card.png" alt="Flashcards Icon">
+            <p>Flashcards</p>
+        </div>
+    </section>
+
+</body>
+</html>
